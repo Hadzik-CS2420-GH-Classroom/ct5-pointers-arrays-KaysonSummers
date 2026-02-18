@@ -37,7 +37,7 @@ void pointersAsArrays() {
 
     // TODO: Print ptr[4] to access the last element through the pointer
     // Expected output: "Pointer access: ptr[4] = 500"
-    std::cout << "Pointer access: ptr[4] =  " << ptr[4] << '\n';
+    std::cout << "Pointer access: ptr[4] = " << ptr[4] << '\n';
     //
     // ! DISCUSSION: What happens if you do ptr[5] or ptr[100]?
     //   No compile error! C++ does NOT check array bounds. ptr[5] reads

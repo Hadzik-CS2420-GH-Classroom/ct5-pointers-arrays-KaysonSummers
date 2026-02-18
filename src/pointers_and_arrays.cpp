@@ -96,7 +96,6 @@ void pointersAndArrays() {
 
     // TODO: Change 'value' through the pointer by assigning 99 to *pValue
     *pValue = 99;
-    std::cout << "pValue is now: " << *pValue << "\n";
     //
     // ! DISCUSSION: How does *pValue = 99 change 'value'?
     //   pValue holds the address of 'value'. Writing to *pValue means
@@ -104,7 +103,7 @@ void pointersAndArrays() {
     //   where 'value' lives, 'value' itself changes. The pointer didn't
     //   copy the data — it's an alias to the same memory location.
 
-    std::cout << "After modification through pointer:" << '\n';
+    std::cout << "After modification through pointer:" << *pValue <<'\n';
     // TODO: Print 'value' directly to show it changed
     // Expected output: "value is now: 99"
     std::cout << "value is now: " << value << "\n";
