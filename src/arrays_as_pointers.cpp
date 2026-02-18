@@ -63,7 +63,7 @@ void arraysAsPointers() {
 
     // TODO: Print the value of *grades (dereference the array name as if it were a pointer)
     // Expected output: "First element (*grades): 95"
-    std::cout << "First element *(grades): " << *(grades) << '\n';
+    std::cout << "First element (*grades): " << *(grades) << '\n';
 
     // ! DISCUSSION: Why can we dereference an array name with *?
     //   Because 'grades' decays to a pointer in this expression.
